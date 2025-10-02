@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import csv
 import os
-from funcionesCSV import csv_a_diccionarios, agregar_registro, borrar_por_indice, modificar_interactivo
+from funcionesCSV_v2 import csv_a_diccionarios, agregar_registro, borrar_por_indice, modificar_interactivo
 
 # Configuración de la página
 st.set_page_config(
@@ -315,4 +315,5 @@ else:
 
 # Footer
 st.markdown("---")
+
 st.caption("Gestor de Archivos CSV - Desarrollado con Streamlit")
